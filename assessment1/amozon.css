@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav {
+    background-color: #01070e;
+    color: rgb(254, 246, 246);
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+}
+
+.search-bar button {
+    padding: 5px;
+    background-color: #d99816;
+    border: rgb(20, 4, 236);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.status-bar{
+    list-style: none;
+    background-color: #196cb9;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    border: 20px;
+    justify-content: space-around;
+}
+
+.status-bar li {
+    color: rgb(254, 252, 252);
+    cursor: pointer;
+}
+
+.category-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.category {
+    
+    margin: 10px;
+    text-align: center;
+}
+
+.category img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.banner {
+    background-color: #c6e5fa;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.deals {
+    text-align: center;
+    padding: 20px;
+}
